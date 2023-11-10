@@ -1,0 +1,33 @@
+{
+  "name": "zen/image",
+  "description": "A library to display images for laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Korbecki",
+      "email": "wojciechkorbecki@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Zen\\Image\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^10.30",
+    "intervention/image": "^2.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.1"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Zen\\Form\\ZenFormServiceProvider"
+      ]
+    }
+  }
+}
